@@ -1,7 +1,22 @@
 aid: pixowl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pixowl.png
 name: PixOwl
-description: PixOwl is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PixOwl is a mobile game studio, originally known for the early mobile version of The Sandbox
+  and titles such as Doodle Grub, later acquired by Animoca Brands. It was surfaced as a portfolio company
+  of 500 Global and added to the API Evangelist network for enrichment. As of this pass the pixowl.com
+  domain is a defunct redirect loop behind Cloudflare with no public developer portal, documentation, or
+  API surface; only live domain-security posture (TLS/DNS) could be probed.
 url: https://raw.githubusercontent.com/api-evangelist/pixowl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Game Development
+- Game Studio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +40,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pixowl-domain-security.yml
 - type: Website
   url: https://pixowl.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
