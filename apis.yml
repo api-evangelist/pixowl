@@ -51,6 +51,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/animoca-brands/
+  name: Animoca Brands
+  x-relationship: acquired
+  x-evidence: "PixOwl is a mobile game studio, originally known for the early mobile version of The Sandbox and titles such as Doodle Grub, later acquired by Animoca Brands. It was surfaced as a portfolio company of 500 Global and added to the API Evangel"
 - type: DomainSecurity
   url: security/pixowl-domain-security.yml
 - type: Website
